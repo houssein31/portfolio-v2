@@ -314,20 +314,20 @@ section {
   margin: auto 0;
 }
 
-/* EXPERIENCE SECTION */
+/* SKILLS SECTION */
 
-#experience {
+#skills {
   position: relative;
 }
 
-.experience-sub-title {
+.skills-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
 
-.experience-details-container {
+.skills-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -351,6 +351,118 @@ article {
 
 article .icon {
   cursor: default;
+}
+
+/* CERT SECTION */
+
+#skills {
+  position: relative;
+}
+
+.skills-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.skills-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+article .icon {
+  cursor: default;
+}
+
+.cert-section .cert-center-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; /* Create space between the elements */
+  height: 100%;
+  text-align: center;
+}
+
+.cert-section-image {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width: 130px; /* Set the maximum width to 150px */
+  height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+  margin-bottom: 0; /* Reduced margin below the image */
+}
+
+.cert-text {
+  text-align: left; /* Align all text elements to the left */
+  padding-left: 15px;
+}
+
+.cert-text h3 {
+  font-size: 23px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.cert-text p {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  text-align: left; /* Add this line to align text to the left */
+}
+
+.cert-view-badge-button {
+  display: flex; /* Use flex display to center content vertically */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  background-color: #1b1b1b;
+  height: 100%; /* Set the height to 100% of the container */
+  border: 2px solid black;
+  margin-top: 40px;
+  padding: 3px 10px; /* Adjust padding */
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.cert-view-badge-content {
+  display: contents; /* Use flex display for side-by-side elements */
+  align-items: center; /* Center content vertically */
+}
+
+.cert-view-badge-content p {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  color: #fff;
+  margin-right: 10px;
+  white-space: nowrap; /* Prevent the text from wrapping to a new line */
+  overflow: hidden; /* Hide any overflowed text */
+  text-overflow: ellipsis; /* Add an ellipsis (...) if the text overflows */
+}
+
+.cert-view-badge-content img {
+  max-width: 50px;
+  margin: 0; /* Reset margin specifically for the image */
 }
 
 /* PROJECTS SECTION */
@@ -378,6 +490,15 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+.project-btn span {
+  margin-right: 5px; /* Add some spacing between text and image */
+}
+
+.project-btn1 {
+  display: flex; /* Set the button as a flex container */
+  align-items: center; /* Center the items vertically */
 }
 
 /* CONTACT */
